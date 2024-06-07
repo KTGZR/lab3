@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            text-align: center;
+            text-shadow: 2px 2px 2px blueviolet;
+        }
+        select:hover {
+  background-color:aquamarine;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+@keyframes poyav {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+h1, h2, h3, h4, h5, h6 {
+      font-size: 18px;
+    }
+.poyav {
+  animation: poyav 5s ease-in-out;
+}
+    </style>
+</head>
+<body>
+    <input type="text" style="outline: 3px dashed red;">
+    <div><p>Тут есть текст</p></div>
+    <select>
+        <option value="1">Один</option>
+        <option value="2">Два</option>
+        <option value="3">Три</option>
+      </select>
+      <div class="poyav">
+        text poyavlyzetsya
+      </div>
+  <h1>Пример 1</h1>
+  <h2>Пример 2</h2>
+  <h3>Пример 3</h3>
+  <h4>Пример 4</h4>
+  <h5>Пример 5</h5>
+  <h6>Пример 6</h6>
+</body>
+</html>

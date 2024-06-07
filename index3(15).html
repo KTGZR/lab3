@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div label{
+            display: block;
+        }
+        div{
+            border: 10px dashed aquamarine;
+            border-radius: 10px;
+            background-color: aquamarine;
+        }
+        
+        body{
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+             min-height: 100vh;
+             background-color: peru;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 3px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+    <label>
+        Имя пользователя<br>
+        <input type="text" placeholder="">
+    </label>
+    <label>
+        Пароль<br>
+        <input type="text">
+    </label>
+    <button class = "container">Войти</button>
+    <br>
+    <button class="container">Регистрация</button>
+    </div>
+</body>
+</html>
